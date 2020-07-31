@@ -30,3 +30,18 @@ body{
     width: auto;
     height: 56.9rem;
 }
+#About{
+    background: #313552;
+    border-radius: 0.5rem;
+}
+.card{
+    border-bottom: 8px solid #f5ba09;
+}
+#social-media{
+    background-color: #313552;
+}
+.medial_link{
+    padding : 1rem;
+    max-width: 15rem;
+    
+}
