@@ -14,3 +14,19 @@ body{
     border-bottom: 5px solid #f5ba09;
     transition: 0.5s ease;
 }
+.main_container{
+    min-height: 100vh;
+  
+}
+.main_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_row h1 {
+    font-size: 5rem;
+}
+.main_row img{
+    width: auto;
+    height: 56.9rem;
+}
