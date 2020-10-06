@@ -2,24 +2,29 @@
 html{
     scroll-behavior: smooth;
 }
-
-
 body{
-    background: #1f2235;
+    background: linear-gradient(to right, #3525af, #5e1f98,#b084ee,#9153c9);
     font-family: "Baloo Tamma 2", cursive;
 }
 
-.m-heading{
-    font-family: "Roboto Slab", serif;
-}
 .navigation-link{
-    border: 2px solid transparent;
+    border-bottom: 5px solid #f5ba09;
+    /* border-radius: 50px; */
 }
 .navigation-link:hover{
     text-decoration: none;
-    border-bottom: 5px solid #f5ba09;
+    border: 5px solid #f5ba09;
+    padding: 5px;
     transition: 0.5s ease;
+        border-radius: 50px;
+
 }
+
+.see-project:hover{
+    color:white;
+    background-color: black;
+}
+
 .main_container{
     min-height: 100vh;
   
@@ -29,6 +34,18 @@ body{
     justify-content: center;
     align-items: center;
 }
+.text{
+    background:#f5ba09;
+    border-radius: 200px;
+    padding: 50px;
+    margin:20px;
+    width: 300px;
+    height: 300px;
+}
+#gir_and_laptop{
+    width: 300px;
+    height: 300px;
+}
 .main_row h1 {
     font-size: 5rem;
 }
@@ -37,19 +54,32 @@ body{
     height: 56.9rem;
 }
 #about{
-    background: #313552;
+    background: linear-gradient(to right, #3525af,#a88eef, #9153c9);
     border-radius: 0.5rem;
 }
 .card{
     border-bottom: 8px solid #f5ba09;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.card_image{
+    height: 1000px;
+    width: 300px;
 }
 #social-media{
-    background-color: #313552;
+    background: linear-gradient(to right, #3525af,#a88eef, #9153c9);
 }
 .media_link{
     padding : 1rem;
     max-width: 15rem;
     margin-left:1rem;
-    border: 2px solid #f5ba09;
-    border-radius: 0.5rem;
+    border: 8px solid #f5ba09;
+    border-radius: 11rem;
+}
+.media_link:hover{
+    background:#f5ba09;
+}
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
