@@ -76,6 +76,9 @@ body{
     border: 8px solid #f5ba09;
     border-radius: 11rem;
 }
+.media_link:hover{
+    background:#f5ba09;
+}
 .card:hover{
     transform: scale(1.2);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
