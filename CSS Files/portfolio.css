@@ -74,7 +74,7 @@ body{
     max-width: 15rem;
     margin-left:1rem;
     border: 8px solid #f5ba09;
-    border-radius: 11rem;
+    border-radius: 50px;
 }
 .media_link:hover{
     background:#f5ba09;
@@ -83,4 +83,16 @@ body{
 .card:hover{
     transform: scale(1.2);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.footer_new_social_links_main{
+    text-align: center; 
+
+    border-radius:50px; 
+}
+#icons{
+    color: #f5ba09;
+    border: 2px solid #f5ba09; 
+    border-radius: 50px; 
+    /* size: 1000px; */
+    padding: 10px;
 }
