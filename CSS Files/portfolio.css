@@ -78,6 +78,7 @@ body{
 }
 .media_link:hover{
     background:#f5ba09;
+    cursor: pointer;
 }
 .card:hover{
     transform: scale(1.2);
