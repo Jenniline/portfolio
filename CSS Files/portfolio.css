@@ -145,7 +145,7 @@ body{
   }
   .container .card:hover
   {
-        height: 420px;
+        height: 500px;
         justify-content: center;
         align-items: center; 
   }
@@ -160,7 +160,12 @@ body{
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
     justify-content: center;
     align-items: center; 
+    background-color:transparent;
 
+  }
+  .container .card .imgBx  #project_description
+  {
+     visibility: visible; 
   }
 
   .container .card .imgBx img{
