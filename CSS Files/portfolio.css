@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,900&display=swap");
 
 html{
     scroll-behavior: smooth;
@@ -16,14 +17,14 @@ body{
     border: 5px solid #f5ba09;
     padding: 5px;
     transition: 0.5s ease;
-        border-radius: 50px;
+    border-radius: 50px;
 
 }
 
-.see-project:hover{
+/* .see-project:hover{
     color:white;
     background-color: black;
-}
+} */
 
 .main_container{
     min-height: 100vh;
@@ -57,15 +58,15 @@ body{
     background: linear-gradient(to right, #3525af,#a88eef, #9153c9);
     border-radius: 0.5rem;
 }
-.card{
+/* .card{
     border-bottom: 8px solid #f5ba09;
     transition: 0.5s ease;
     cursor: pointer;
-}
-.card_image{
+} */
+/* .card_image{
     height: 1000px;
     width: 300px;
-}
+} */
 #social-media{
     background: linear-gradient(to right, #3525af,#a88eef, #9153c9);
 }
@@ -74,12 +75,127 @@ body{
     max-width: 15rem;
     margin-left:1rem;
     border: 8px solid #f5ba09;
-    border-radius: 11rem;
+    border-radius: 50px;
 }
 .media_link:hover{
     background:#f5ba09;
+    cursor: pointer;
 }
-.card:hover{
+/* .card:hover{
     transform: scale(1.2);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+} */
+.footer_new_social_links_main{
+    text-align: center; 
+
+    border-radius:50px; 
 }
+#icons{
+    color: #f5ba09;
+    border: 2px solid #f5ba09; 
+    border-radius: 50px; 
+    /* size: 1000px; */
+    padding: 10px;
+}
+
+/* card animation begins here */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }  */
+ 
+  /* body
+  {
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+    background: linear-gradient(to right, #3525af, #5e1f98,#b084ee,#9153c9);
+
+  }  */
+
+     /* .container
+  {
+      position: relative;
+      width: 1100px;
+       display: flex; 
+      justify-content: center;
+      align-items: center; 
+      flex-wrap: wrap;
+      padding: 30px;
+  }    */
+/* 
+  #navbar_items
+  {
+
+  } */
+  .container .card
+  {     
+        position: relative;
+        max-width: 300px;
+        height: 215px;
+        background: #ffffff;
+        margin: 30px 10px;
+        padding: 20px 25px; 
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+        transition: 0.3s ease-in-out;
+  }
+  .container .card:hover
+  {
+        height: 500px;
+        justify-content: center;
+        align-items: center; 
+  }
+  .container .card .imgBx
+  {
+    position: relative;
+    max-width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center; 
+    background-color:transparent;
+
+  }
+  .container .card .imgBx  #project_description
+  {
+     visibility: visible; 
+  }
+
+  .container .card .imgBx img{
+      max-width: 100%;
+      border-radius: 4px; 
+      justify-content: center;
+      align-items: center; 
+
+  }
+
+  .container .card .content
+  {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+  }
+
+  .container .card:hover .content
+  {
+        visibility: visible;
+        opacity: 1;
+        margin-top: -30px;
+        transition-delay: 0.3s;
+  }
+
+
+
