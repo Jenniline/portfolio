@@ -142,7 +142,6 @@ body{
         flex-direction: column;
         box-shadow: 0 5px 202px rgba(0,0,0,0.5);
         transition: 0.3s ease-in-out;
-        
   }
   .container .card:hover
   {
