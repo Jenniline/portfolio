@@ -197,5 +197,21 @@ body{
         transition-delay: 0.3s;
   }
 
+  /* #row_skills{
+    background-color:white;
+  }  */
+  .card-body{
+
+    background: linear-gradient(to right,#FFFFFF,#f5ba09,#a88eef, #9153c9);
+
+  }
+
+  .progress .progress-bar {
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    width: 0;
+  }
+
+
 
 
