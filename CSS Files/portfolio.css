@@ -197,13 +197,16 @@ body{
         transition-delay: 0.3s;
   }
 
-  /* #row_skills{
+  #row_skills{
     background-color:white;
-  }  */
+    border-radius: 3%;
+  } 
   .card-body{
-
     background: linear-gradient(to right,#FFFFFF,#f5ba09,#a88eef, #9153c9);
-
+  }
+  #services{
+      background-color: #FFFFFF;
+      border-radius: 3%;
   }
 
   .progress .progress-bar {
@@ -211,6 +214,14 @@ body{
     transition: all ease 0.5s;
     width: 0;
   }
+
+
+ul{
+    list-style-image: url('../images/right-arrow.png');
+}
+.ul .img{
+    border-radius: 50px;
+}
 
 
 
