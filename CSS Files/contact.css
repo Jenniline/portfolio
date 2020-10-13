@@ -20590,5 +20590,6 @@ body {
   /* background: linear-gradient(to right, #3525af, #5e1f98,#b084ee,#9153c9); */
   background: linear-gradient(to right,#FFFFFF,#f5ba09,#a88eef, #9153c9);
   margin-top: 25px;
-  border-radius: 100px; 
+  border-radius: 100px;  
+  border: 2px solid; 
 }
