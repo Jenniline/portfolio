@@ -212,6 +212,15 @@ body{
     width: 0;
   }
 
+  .skill_icon{
+    width:48px;
+     height:48px;
+     padding-bottom: 5px;
+  }
+  #headings{
+        font-weight: bold;
+  }
+
 
 
 
