@@ -20,7 +20,8 @@ if (isset($_POST['submit'])  && isset($_POST['email'])) {
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
     $mail->username = "jennilineebai@gmail.com";
-    $mail->Password = 'dsofhdan';
+    $mail->Password = "Password1%";
+    $mail->Port     = 465;
     $mail->SMTPSecure = "ssl";
     
     // email settings
@@ -37,7 +38,7 @@ if (isset($_POST['submit'])  && isset($_POST['email'])) {
     }
     else {
         $status = "failed";
-        $response = "Something is wrong: " . $mail->ErrorInfo;  
+        $response = "Something is wrong: <br>" . $mail->ErrorInfo;  
     }
 
     exit(json_encode(array("status" => $status, "response" => $response)));

@@ -68,22 +68,22 @@
                                 </div>
                                 <div class="card-body"> 
                                         <span class="d-flex justify-content-center"><h4 class="text-wrap">Thanks for taking the time to reach out. <br> How can I help you today?</h4></span>   
-
-                                    <form  action="tomyemail.php" method="post">
+                                <h4 class="sent-notification"></h4>
+                                    <form  action="process.php" method="post" id="myForm">
                                         <div class="form-row p-2 m-2">
                                             <div class="col-md-6">
                                                 <div class="form-group p-2 m-2">
                                                     <i id="icons" class="fas fa-file-signature fa-2x"></i>
-                                                    <label class="medium mb-1" for="class_no">Name</label>
-                                                    <input class="form-control py-4" id="class_no" type="text" name="name" required/>
+                                                    <label class="medium mb-1" for="name">Name</label>
+                                                    <input class="form-control py-4" id="name" type="text" name="name" required/>
                                                 </div>
                                             </div>
                                             
                                             <div class="col-md-6">
                                                 <div class="form-group p-2 m-2">
                                                     <i id="icons"  class="fas fa-envelope-square fa-2x"></i>
-                                                    <label class="medium mb-1" for="std_reg_no">Email</label>
-                                                    <input class="form-control py-4" id="std_reg_no" type="text" name="email" required/>
+                                                    <label class="medium mb-1" for="email">Email</label>
+                                                    <input class="form-control py-4" id="email" type="text" name="email" required/>
                                                 </div>
                                             </div>
                                       </div>
@@ -92,8 +92,8 @@
                                             <div class="col-md-12">
                                                 <div class="form-group p-2 m-2">
                                                     <i id="icons" class="fas fa-book-reader fa-2x"></i>
-                                                    <label class="medium mb-1" for="std_reg_no">Subject</label>
-                                                    <input class="form-control py-4" id="std_reg_no" type="text" name="subject" required/>
+                                                    <label class="medium mb-1" for="subject">Subject</label>
+                                                    <input class="form-control py-4" id="subject" type="text" name="subject" required/>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,21 +103,51 @@
                                             <div class="col-md-12">
                                                     <i id="icons"  class="fas fa-envelope fa-2x"></i>
                                                     <label for="comment">Message:</label>
-                                                    <textarea class="form-control" rows="5" id="comment" name="message" required></textarea>    
+                                                    <textarea class="form-control" rows="5" id="message" name="message" required></textarea>    
                                             </div>
                                         <!-- <button type="button"  name="submit" id="submit" class="btn-lg text-white font-weight-bold"> Submit</button> -->
-                                        <input id="submit" type="submit"  class="btn-lg text-white font-weight-bold" value="Submit">
+                                        <input id="submit" type="submit"  class="btn-lg text-white font-weight-bold" onclick="sendEmail()" value="Submit">
                                     </form>
 
                                     
                                     <script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
                                     <script type="text/javascript">
                                         function sendEmail(){
-                                            var name = $("name");
-                                            var email = $("email");
+                                            var name = $("#name");
+                                            var email = $("#email");
                                             var subject = $("#subject");
                                             var message = $("#message");
+
+                                            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(message)) {
+                                                $.ajax({
+                                                    url:'process.php',
+                                                    method: 'POST',
+                                                    dataType: 'json',
+                                                    data:{
+                                                        name: name.val(),
+                                                        email: email.val(),
+                                                        subject: subject.val(),
+                                                        message: message.val(),
+                                                    }, success: function(response){
+                                                        $('#myForm')[0].reset();
+                                                        $('.sent-notification').text("Message sent successfully.");
+                                                    }
+                                                })
+                                            }
+                                        }
+                                        function isNotEmpty(caller) {
+                                            if (caller.val()=="") {
+                                                caller.css('border','1px solid red');
+                                                return false;
+                                            }else
+                                            {
+                                                caller.css('border', '');
+                                                return true;    
+                                            }
                                         }
                                     </script>
+
+
+<script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 </body>
 </html>

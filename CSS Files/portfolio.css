@@ -38,7 +38,7 @@ body{
 }
 .text{
     background:#f5ba09;
-    border-radius: 200px;
+    border-radius: 30px;
     padding: 50px;
     margin:20px;
     width: 300px;
@@ -222,6 +222,9 @@ ul{
 }
 .ul .img{
     border-radius: 50px;
+}
+#get_in_touch{
+    border-radius: 20px;
 }
 
 
