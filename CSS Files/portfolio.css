@@ -34,10 +34,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .text{
     background:#f5ba09;
-    border-radius: 200px;
+    border-radius: 30px;
     padding: 50px;
     margin:20px;
     width: 300px;
@@ -197,13 +198,16 @@ body{
         transition-delay: 0.3s;
   }
 
-  /* #row_skills{
+  #row_skills{
     background-color:white;
-  }  */
+    border-radius: 3%;
+  } 
   .card-body{
-
     background: linear-gradient(to right,#FFFFFF,#f5ba09,#a88eef, #9153c9);
-
+  }
+  #services{
+      background-color: #FFFFFF;
+      border-radius: 3%;
   }
 
   .progress .progress-bar {
@@ -220,6 +224,17 @@ body{
   #headings{
         font-weight: bold;
   }
+
+
+ul{
+    list-style-image: url('../images/right-arrow.png');
+}
+.ul .img{
+    border-radius: 50px;
+}
+#get_in_touch{
+    border-radius: 20px;
+}
 
 
 
