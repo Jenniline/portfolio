@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--My CSS-->
     <link rel="stylesheet" href="../CSS Files/portfolio.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="../images/blot-letter-j-black-and-white-vector-20401280-removebg-preview.png">
     <!--Font awesome-->
    <script src="https://kit.fontawesome.com/ccbeb067ed.js" crossorigin="anonymous"></script> 
     <!--Google Fonts-->
@@ -37,20 +39,22 @@
                             <a href="#about" class="text-white navigation-link">About</a>
                         </div>
                         <div class="col-2">
+                          <a href="#skills" class="text-white navigation-link">Skills</a>
+                      </div>
+                        <div class="col-2">
                             <a href="#projects" class="text-white navigation-link">Projects</a>
                         </div>
                         <div class="col-2">
-                            <a href="#" class="text-white navigation-link">Services</a>
+                            <a href="#services" class="text-white navigation-link">Services</a>
                         </div>
-                        <div class="col-2">
-                            <a href="#skills" class="text-white navigation-link">Skills</a>
-                        </div>
-                        <div class="col-2">
-                            <a href="#" class="text-white navigation-link" target="_blank">Resume</a>
-                        </div>
+                     
                         <div class="col-2">
                           <a href="../HTML Files/contact.html" class="text-white navigation-link" target="_blank">Contact</a>
                       </div>
+                        <div class="col-2">
+                            <a href="./resume.html" class="text-white navigation-link" target="_blank">Resume</a>
+                        </div>
+                      
                     </div>
                 </div>
             </div>
@@ -104,7 +108,7 @@
 
 
     <div id="skills" class="container">
-        <h1 class="text-warning mt-5 pt-5">My Skills</h1>
+        <h1 class="text-warning mt-5 pt-5" id="headings">My Skills</h1>
         <div class="row">
           <div  class="col-md-6 border-right">
             <div class="skills mt-5 bg-dark">
@@ -189,29 +193,18 @@
             </div>
           </div>
 
-            <!-- <div class="col-md-6 mt-5">
-                <h1 class="text-warning mt-5 pt-5">My Services</h1>
-                <div id="services" style="width: 33rem; height:32rem;">
-                    
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-     
-                      <ul>
-                          <li>Item 1</li>
-                          <li>Item 2</li>
-                          <li>Item 3</li>
-                          <li>Item 4</li>
-                      </ul>
-                   
-                  </div>    
-            </div> -->
+          <div class="col-md-6" id="services">
+            <div class="service">
+              <p>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
         </div>
 
         
       </div>
 
         <div id="projects" class="container mt-3 pt-5">
-              <h1 class="text-warning mt-5 pt-5">My projects</h1>
+              <h1 class="text-warning mt-5 pt-5" id="headings">My projects</h1>
              <br>
                         <div class="row">
                                     <div class="col-4">
@@ -266,13 +259,62 @@
                                             </div>
                                           
                                         </div>
-                                    </div>         
-                                  </div>    
+                                    </div>   
+                                    
+                                    <div class="col-4">
+                                      <div class="card">
+                                          <div class="imgBx">
+                                              <img src="../images/co-workerglobal_pass_sales_pic.png" alt="chopBox">
+                                          </div>
+                                          <div class="content">
+                                              <h2>Co-worker</h2> 
+                                              <p>A redo of co-worker website to test and exhibit advanced Bootstrap concepts</p>
+                                              <div class="see_project">
+                                                  <button type="button" class="btn btn-warning">See Project</button>
+                                                </div>
+                                          </div>
+                                      </div>
+                                  </div>  
+                                  
+                                  <div class="col-4">
+                                    <div class="card">
+                                        <div class="imgBx">
+                                            <img src="../images/Lyon_automation.jpg" alt="chopBox">
+                                        </div>
+                                        <div class="content">
+                                            <h2>Lyon Technologies website</h2> 
+                                            <p>A website for Lyon Technologies to exhibit the Company Lyon Technologies </p>
+                                            <div class="see_project">
+                                                <button type="button" class="btn btn-warning">See Project</button>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-4">
+                                  <div class="card">
+                                      <div class="imgBx">
+                                          <img src="../images/co-workerglobal_pass_sales_pic.png" alt="chopBox">
+                                      </div>
+                                      <div class="content">
+                                          <h2>Rennix</h2> 
+                                          <p>A website for Rennix Inc</p>
+                                          <div class="see_project">
+                                              <button type="button" class="btn btn-warning">See Project</button>
+                                            </div>
+                                      </div>
+                                    
+                                  </div>
+                              </div>  
+                              </div>    
         </div>
     </div>
    
     <div id="social-media" class="container-fluid p-4">
+
         <div class="container">
+          <h1 class="text-warning mb-3 pb-3" id="headings">Connect with me</h1>
+
             <div class="row">
                 <div class="col-6">
                     <div class="footer_new_social_links_main">
@@ -292,8 +334,7 @@
 
                             <div class="col">
                               <div class="col justify-content-end">
-                                              <!-- <button type="button" class="btn btn-primary btn-lg text-dark">  <a href="../Resume-CV-Design-19m20/index.html" target="_blank">  Get in touch. Say Hi  </a>  </button> -->
-                               
+                                              <!-- <button type="button" class="btn btn-primary btn-lg text-dark">  <a href="../Resume-CV-Design-19m20/index.html" target="_blank">  Get in touch. Say Hi  </a>  </button> --> 
                                 <a href="../HTML Files/contact.html" target="_blank">  <button type="button" id="get_in_touch"  class="btn btn-primary  btn-lg font-weight-bold">Say Hi, <br> let's discuss <i class="far fa-smile-wink text-warning font-weight-bold" ></i> </button> </a>
                 
                               </div>
