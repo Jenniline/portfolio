@@ -226,18 +226,25 @@ body{
   }
 
 
-ul{
+ /* ul{
     list-style-image: url('../images/right-arrow.png');
-}
+} 
 .ul .img{
     border-radius: 50px;
-}
+} */
 #get_in_touch{
     border-radius: 70px;
 }
 .service{
     border: 5px solid #b084ee;
     margin-top: 50px;
+}
+.service .service_title{
+    color: #9153c9;
+    text-transform: uppercase;
+	font-weight: 700;
+    /* letter-spacing: 2px; */
+    padding-top: 2px;
 }
 
 
