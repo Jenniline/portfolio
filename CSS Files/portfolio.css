@@ -235,6 +235,10 @@ ul{
 #get_in_touch{
     border-radius: 70px;
 }
+.service{
+    border: 5px solid #b084ee;
+    margin-top: 50px;
+}
 
 
 
