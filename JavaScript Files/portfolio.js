@@ -25,6 +25,9 @@
 //     timer = null;
 // }
 
+
+
+
 $(document).ready(function () {
     $(window).on("scroll", function () {
       $(".progress").each(function (index, progress) {

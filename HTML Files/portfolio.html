@@ -17,43 +17,50 @@
 
 
   <!--Bootstrap Js-->
+  <script src="../JavaScript Files/portfolio.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="../JavaScript Files/portfolio.js"></script>
   
   <title>Portfolio</title>
 </head>
 <body>
 
-    <div class="container pt-3">
+  <!-- navbar starts -->
+
+    <div class="container  pt-3" id="navbar">
             <div class="row">
                 <div class="col-6 d-flex justify-content-start align-items-center">
                     <!-- <i class="fas fa-code fa-2x text-warning pb-3"></i> -->
                     <img src="../images/blot-letter-j-black-and-white-vector-20401280-removebg-preview.png" alt="letter J" style="width: 80px; background-color: #f5ba09; border-radius: 50px;">
                     <h5 class="text-white d-inline pl-2">La Jenn</h5>
                 </div>
-                <div class="col-6 pt-2" id="navbar_items">
-                    <div class="row">
+
+              
+                <div class="col-6 pt-2">
+                    <div class="row" id="navbar_items">
+                   
                         <div class="col-2">
-                            <a href="#about" class="text-white navigation-link">About</a>
+                            <a href="#about" class="text-white navigation-link black">About</a>
                         </div>
                         <div class="col-2">
-                            <a href="#projects" class="text-white navigation-link">Projects</a>
+                            <a href="#projects" class="text-white navigation-link black">Projects</a>
                         </div>
                         <div class="col-2">
-                            <a href="#" class="text-white navigation-link">Services</a>
+                            <a href="#" class="text-white navigation-link black">Services</a>
                         </div>
                         <div class="col-2">
-                            <a href="#skills" class="text-white navigation-link">Skills</a>
+                            <a href="#skills" class="text-white navigation-link black">Skills</a>
                         </div>
                         <div class="col-2">
-                            <a href="./resume.html" class="text-white navigation-link" target="_blank">Resume</a>
+                            <a href="./resume.html" class="text-white navigation-link black" target="_blank">Resume</a>
                         </div> 
                     </div>
                 </div>
             </div>
     </div>
+  
+  <!-- navbar ends -->
 
 
 
@@ -93,8 +100,6 @@
             </div>
         </div>
     </div>
-
-
 
     <div id="skills" class="container">
         <h1 class="text-warning mt-5 pt-5">My Skills</h1>
@@ -357,20 +362,15 @@
   </div>
 
 
-
-
-
-
     <footer>
         <div class="container text-muted text-center py-J mt-5">
             <h5 class="text-dark">Copyright &copy; 2020 | <a href="#" class="text-white">Jenniline Ebai</a> </h5>
         </div>
     </footer> 
 
-
-
     <script src="./js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    
 </body>
 </html>
