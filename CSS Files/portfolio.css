@@ -203,6 +203,13 @@ body{
     background-color:white;
     border-radius: 3%;
   } 
+
+  .skills_image {
+    height: 5em;
+    border-radius: 10em;
+  }
+
+
   .card-body{
     background: linear-gradient(to right,#FFFFFF,#f5ba09,#a88eef, #9153c9);
   }
