@@ -9,3 +9,7 @@ How do I make the images load faster?
 The Images still dont load faster
 Making progress with the images
 almost done
+###
+Added Skills to Home Page
+Portfolio will be hosted on Github pages or Heroku
+Learned about Windows onScroll in JavaScript and CSS
