@@ -12,12 +12,8 @@ body{
 .navigation-link{
     border-bottom: 5px solid #f5ba09;
     position: fixed;
-    
-    /* top: 0; */
-    /* overflow: hidden; */
-   
  } 
- 
+
 .navigation-link:hover{
     text-decoration: none;
     border: 5px solid #f5ba09;
@@ -130,11 +126,12 @@ body{
       flex-wrap: wrap;
       padding: 30px;
   }    */
-/* 
-  #navbar_items
-  {
 
-  } */
+    #onScroll
+  {
+    background-color: #f5ba09;
+  } 
+  
   .container .card
   {     
         position: relative;
