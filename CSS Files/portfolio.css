@@ -29,6 +29,7 @@ body{
 
 .main_container{
     min-height: 100vh;
+    font-size: 2em;
   
 }
 .main_row{
@@ -126,11 +127,6 @@ body{
       flex-wrap: wrap;
       padding: 30px;
   }    */
-
-    #onScroll
-  {
-    background-color: #f5ba09;
-  } 
   
   .container .card
   {     
