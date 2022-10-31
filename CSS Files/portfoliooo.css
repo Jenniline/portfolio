@@ -4,26 +4,46 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient(to right, #3525af, #5e1f98,#b084ee,#9153c9);
+    background: linear-gradient(to right, #5e1f98,#8338ec,#b084ee,#9153c9);
     font-family: "Baloo Tamma 2", cursive;
 }
 
-
 .navigation-link{
-    border-bottom: 5px solid #f5ba09;
+    border-bottom: 5px solid #9153c9;
     position: fixed;
     
     /* top: 0; */
     /* overflow: hidden; */
    
- } 
- 
+}
 .navigation-link:hover{
     text-decoration: none;
-    border: 5px solid #f5ba09;
+    border: 5px solid #9153c9;
     padding: 5px;
     transition: 0.5s ease;
     border-radius: 50px;
+}
+
+
+#navbar_items
+{
+  width: 100%;
+  max-width: 100%;
+  /* background-color :#f5ba09; */
+  background-color: #f5ddc0;
+  color:#000000;
+  /* background-color: linear-gradient(to right,#3525af, #5e1f98,#8338ec); */
+} 
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:9999;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
   }
 
 /* .see-project:hover{
@@ -39,10 +59,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .text{
     background:#f5ba09;
-    border-radius: 200px;
+    border-radius: 30px;
     padding: 50px;
     margin:20px;
     width: 300px;
@@ -73,7 +94,7 @@ body{
     width: 300px;
 } */
 #social-media{
-    background: linear-gradient(to right, #3525af,#a88eef, #9153c9);
+    background: linear-gradient(to right,#8338ec,#a88eef,#9153c9);
 }
 .media_link{
     padding : 1rem;
@@ -130,11 +151,7 @@ body{
       flex-wrap: wrap;
       padding: 30px;
   }    */
-/* 
-  #navbar_items
-  {
-
-  } */
+ 
   .container .card
   {     
         position: relative;
@@ -220,12 +237,28 @@ body{
     width: 0;
   }
 
+  .skill_icon{
+    width:48px;
+     height:48px;
+     padding-bottom: 5px;
+  }
+  #headings{
+        font-weight: bold;
+  }
+
 
 ul{
     list-style-image: url('../images/right-arrow.png');
 }
 .ul .img{
     border-radius: 50px;
+}
+#get_in_touch{
+    border-radius: 70px;
+}
+.service{
+    border: 5px solid #b084ee;
+    margin-top: 50px;
 }
 
 
