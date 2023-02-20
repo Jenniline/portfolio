@@ -4,19 +4,22 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient(to right, #3525af, #5e1f98,#b084ee,#9153c9);
+    /* background: linear-gradient(to right, #3525af, #5e1f98,#b084ee,#9153c9); */
+    background: linear-gradient(to right,#8abae9, #547ce9, #5643e6);
     font-family: "Baloo Tamma 2", cursive;
 }
 
 
 .navigation-link{
-    border-bottom: 5px solid #f5ba09;
+    /* border-bottom: 5px solid #f5ba09; */
+    border-bottom: 5px solid #ffffff;
+
     position: fixed;
  } 
 
 .navigation-link:hover{
     text-decoration: none;
-    border: 5px solid #f5ba09;
+    border: 5px solid #ffffff;
     padding: 5px;
     transition: 0.5s ease;
     border-radius: 50px;
@@ -38,7 +41,7 @@ body{
     align-items: center;
 }
 .text{
-    background:#f5ba09;
+    background:#ffffff;
     border-radius: 200px;
     padding: 50px;
     margin:20px;
@@ -57,7 +60,8 @@ body{
     height: 56.9rem;
 }
 #about{
-    background: linear-gradient(to right, #3525af,#a88eef, #9153c9);
+    background: linear-gradient(to right,#8abae9, #547ce9, #5643e6, #3525af);
+
     border-radius: 0.5rem;
 }
 /* .card{
@@ -70,7 +74,8 @@ body{
     width: 300px;
 } */
 #social-media{
-    background: linear-gradient(to right, #3525af,#a88eef, #9153c9);
+    background: linear-gradient(to right,#8abae9, #547ce9, #5643e6, #3525af,#3525af);
+
 }
 .media_link{
     padding : 1rem;
@@ -207,8 +212,9 @@ body{
 
 
   .card-body{
-    background: linear-gradient(to right,#FFFFFF,#f5ba09,#a88eef, #9153c9);
+    background: linear-gradient(to right,#8abae9, #547ce9, #5643e6, #3525af);
   }
+
   #services{
       background-color: #FFFFFF;
       border-radius: 3%;
