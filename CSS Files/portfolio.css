@@ -42,11 +42,11 @@ body{
 }
 .text{
     background:#ffffff;
-    border-radius: 200px;
+    border-radius: 100px;
     padding: 50px;
     margin:20px;
-    width: 300px;
-    height: 300px;
+    width: 700px;
+    height: 500px;
 }
 #gir_and_laptop{
     width: 300px;
@@ -202,7 +202,7 @@ body{
 
   #row_skills{
     background-color:white;
-    border-radius: 3%;
+    border-radius: 2%;
   } 
 
   .skills_image {
@@ -212,7 +212,7 @@ body{
 
 
   .card-body{
-    background: linear-gradient(to right,#8abae9, #547ce9, #5643e6, #3525af);
+    background: #ffffff;
   }
 
   #services{
@@ -234,6 +234,22 @@ ul{
     border-radius: 50px;
 }
 
+
+
+#hashnode_image_in_footer{
+    width: 50em;
+    height: 50px;
+
+}
+
+#header_img{
+    margin-right: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    width: 500px
+   
+}
 
 
 
